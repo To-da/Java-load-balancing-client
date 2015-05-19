@@ -48,7 +48,7 @@ class RestTemplateExample implements CommandLineRunner {
         log.info("------------------------------");
         log.info("RestTemplate Example");
 
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 50; i++) {
             try {
                 log.info(getMessage());
             }
